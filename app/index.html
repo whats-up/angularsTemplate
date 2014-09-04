@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html ng-app="spicyApp1"></html>
+<head>
+  <script src="http://code.angularjs.org/1.2.0/angular.min.js"></script>
+  <script src="/js/app.js"></script>
+  <link href="/css/basic.css" rel="stylesheet">
+</head>
+<body>
+  <div ng-app="spicyApp1" ng-controller="SpicyCtrl">
+    <button ng-click="chiliSpicy()">Chili</button>
+    <button ng-click="jalapenoSpicy()">Jalapeño</button>
+    <p>The food is {{spice}} spicy!</p>
+  </div>
+</body>

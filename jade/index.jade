@@ -1,0 +1,11 @@
+doctype html
+html(ng-app="spicyApp1")
+head
+  script(src="http://code.angularjs.org/1.2.0/angular.min.js")
+  script(src="/js/app.js")
+  link(href="/css/basic.css" rel="stylesheet")
+body
+  div(ng-app="spicyApp1" ng-controller="SpicyCtrl")
+    button(ng-click="chiliSpicy()") Chili
+    button(ng-click="jalapenoSpicy()") Jalapeño
+    p The food is {{spice}} spicy!
